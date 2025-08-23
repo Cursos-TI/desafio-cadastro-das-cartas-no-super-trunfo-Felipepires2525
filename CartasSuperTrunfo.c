@@ -14,6 +14,10 @@ int main() {
         float area1;
         float pib;
         int pontosturisticos1;
+        int populacao2;
+        float area2;
+        float pib;
+        int pontosturisticos2;
 
     
     // Cadastro das Cartas:
