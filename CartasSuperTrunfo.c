@@ -29,7 +29,7 @@ int main() {
     printf("|****************************************|\n"); 
     printf("| BEM-VINDO Cartas Super Trunfo - Paises!|\n");
     printf("|________________________________________|\n");
-    printf("|****************************************|\n,\n");
+    printf("|****************************************|\n\n");
     printf("\n--- CADASTRO DA CARTA 1 ---\n");
     printf("Digite a Populacao da primeira cidade: ");
     scanf("%d", &populacao1);
@@ -42,30 +42,28 @@ int main() {
 
     //solicitação dos dados da carta 2 para o usuario 
 
-    printf("\n--- CADASTRO DA CARTA 1 ---\n");
+    printf("\n--- CADASTRO DA CARTA 2 ---\n");
     printf("Digite a Populacao da primeira cidade: ");
     scanf("%d", &populacao2);
-    print("Digite a area (em km²): ");
+    printf("Digite a area (em km²): ");
     scanf("%f", &area2);
     printf("Digite O PIB(em bilhoes):");
     scanf("%f", &pib2);
     printf("Digite o Numero de pontos turisticos: ");
     scanf("%d", &pontosturisticos2);
 
-    
-
-
-
-
-
-
-
-
-
-
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+
+    printf("Populacao: %d", populacao1);
+    printf("Area %f", area1);
+    printf("PIB %f", pib1);
+    printf("Pontos Turisticos: %d", pontosturisticos1);
+
+
+
+
 
     return 0;
 }
