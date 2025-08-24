@@ -62,7 +62,10 @@ int main() {
     printf("Pontos Turisticos: %d", pontosturisticos1);
 
 
-
+    printf("Populacao: %d", populacao2);
+    printf("Area %f", area2);
+    printf("PIB %f", pib2);
+    printf("Pontos Turisticos: %d", pontosturisticos2);
 
 
     return 0;
