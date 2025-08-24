@@ -56,16 +56,16 @@ int main() {
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
-    printf("Populacao: %d", populacao1);
-    printf("Area %f", area1);
-    printf("PIB %f", pib1);
-    printf("Pontos Turisticos: %d", pontosturisticos1);
+    printf("Populacao: %d\n", populacao1);
+    printf("Area %f\n", area1);
+    printf("PIB %f\n", pib1);
+    printf("Pontos Turisticos: %d\n", pontosturisticos1);
 
 
-    printf("Populacao: %d", populacao2);
-    printf("Area %f", area2);
-    printf("PIB %f", pib2);
-    printf("Pontos Turisticos: %d", pontosturisticos2);
+    printf("Populacao: %d\n", populacao2);
+    printf("Area %f\n", area2);
+    printf("PIB %f\n", pib2);
+    printf("Pontos Turisticos: %d\n", pontosturisticos2);
 
 
     return 0;
