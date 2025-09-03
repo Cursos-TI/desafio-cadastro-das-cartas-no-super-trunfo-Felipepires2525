@@ -105,6 +105,8 @@ int main() {
     printf("Area %f\n", area1);
     printf("PIB %f\n", pib1);
     printf("Pontos Turisticos: %d\n", pontosturisticos1);
+    printf("Densidade Populacional: %.2f\n", (float)populacao1/area1);  //Calcular a Densidade Populacional dividindo popuação/area 
+    printf("PIB per Capita: %.2f\n", (float)pib1/populacao1);  //Calcular o pib per capita dividindo pib/população
 
     printf("Carta 2:\n");
     printf("Estado: %c\n", estado2);
