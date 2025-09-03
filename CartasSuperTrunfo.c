@@ -16,6 +16,8 @@ int main() {
         float area1;
         float pib1;
         int pontosturisticos1;
+        float densidade1;
+        float pibpercapita1;
 
         //variaveis da carta 2
 
@@ -26,6 +28,8 @@ int main() {
         float area2;
         float pib2;
         int pontosturisticos2;
+        float dencidade2;
+        float pibpercapita2;
 
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
