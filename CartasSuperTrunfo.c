@@ -143,7 +143,9 @@ int main() {
     resultado = pib1 > pib2;
     printf("PIB: %d\n", resultado);
 
-    
+    resultado = pontosturisticos1 > pontosturisticos2;
+    printf("Pontos Turisticos: %d\n", resultado);
 
+    
     return 0;
 }
