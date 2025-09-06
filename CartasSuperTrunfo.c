@@ -137,5 +137,8 @@ int main() {
     resultado = populacao1 > populacao2;
     printf("Populacao: %d\n", resultado);
 
+    resultado = area1 > area2;
+    printf("Area: %d\n", resultado);
+
     return 0;
 }
