@@ -152,7 +152,8 @@ int main() {
     resultado = pibpercapita1 > pibpercapita2;
     printf("PIB per Capita: %d\n", resultado);
     
-
+    resultado = superPoder1 > superPoder2;
+    printf("Super poder: %d\n", resultado);
 
     return 0;
 }
