@@ -12,7 +12,7 @@ int main() {
         char estado1;
         char codigo1[4];
         char nomeCidade1[50];
-        int populacao1;
+        unsigned long int populacao1;
         float area1;
         float pib1;
         int pontosturisticos1;
@@ -24,7 +24,7 @@ int main() {
         char estado2;
         char codigo2[4];
         char nomeCidade2[50];
-        int populacao2;
+        unsigned long int populacao2;
         float area2;
         float pib2;
         int pontosturisticos2;
