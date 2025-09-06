@@ -140,5 +140,10 @@ int main() {
     resultado = area1 > area2;
     printf("Area: %d\n", resultado);
 
+    resultado = pib1 > pib2;
+    printf("PIB: %d\n", resultado);
+
+    
+
     return 0;
 }
