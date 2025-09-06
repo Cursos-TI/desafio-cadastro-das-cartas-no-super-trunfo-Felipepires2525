@@ -97,7 +97,7 @@ int main() {
     pibpercapita1 = pib1 / (float)populacao1;
     superPoder1 = (float)populacao1 + area1 + pib1 + pibpercapita1 + (float)pontosturisticos1 + (1.0f / densidade1);
 
-    dencidade2 = (float)populacao2 / area2;
+    densidade2 = (float)populacao2 / area2;
     pibpercapita2 = pib2 / (float)populacao2;
     superPoder2 = (float)populacao2 + area2 + pib2 + pibpercapita2 + (float)pontosturisticos2 + (1.0f / densidade2);
 
