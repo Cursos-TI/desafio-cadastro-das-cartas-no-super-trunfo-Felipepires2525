@@ -94,6 +94,8 @@ int main() {
     scanf("%d", &pontosturisticos2);
 
     densidade1 = (float)populacao1 / area1;
+    pibpercapita1 = pib1 / (float)populacao1;
+    superPoder1 = (float)populacao1 + area1 + pib1 + pibpercapita1 + (float)pontosturisticos1 + (1.0f / densidade1);
 
 
     // Exibição dos Dados das Cartas:
