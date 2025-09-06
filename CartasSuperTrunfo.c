@@ -146,6 +146,10 @@ int main() {
     resultado = pontosturisticos1 > pontosturisticos2;
     printf("Pontos Turisticos: %d\n", resultado);
 
+    resultado = densidade1 < densidade2;
+    printf("Densidade Populacional: %d\n", resultado);
     
+
+
     return 0;
 }
