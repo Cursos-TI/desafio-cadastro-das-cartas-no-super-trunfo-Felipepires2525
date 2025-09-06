@@ -134,7 +134,8 @@ int main() {
     int resultado;
     printf("\n\n----COMPARAÇÃO DAS CARTAS (1 = Vitoria da carta 1 || 0 = vitoria da carta 2)----\n");
 
-    
+    resultado = populacao1 > populacao2;
+    printf("Populacao: %d\n", resultado);
 
     return 0;
 }
