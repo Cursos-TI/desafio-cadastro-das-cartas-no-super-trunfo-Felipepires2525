@@ -29,7 +29,7 @@ int main() {
         float area2;
         float pib2;
         int pontosturisticos2;
-        float dencidade2;
+        float densidade2;
         float pibpercapita2;
         float superPoder2;
 
@@ -96,6 +96,10 @@ int main() {
     densidade1 = (float)populacao1 / area1;
     pibpercapita1 = pib1 / (float)populacao1;
     superPoder1 = (float)populacao1 + area1 + pib1 + pibpercapita1 + (float)pontosturisticos1 + (1.0f / densidade1);
+
+    dencidade2 = (float)populacao2 / area2;
+    pibpercapita2 = pib2 / (float)populacao2;
+    superPoder2 = (float)populacao2 + area2 + pib2 + pibpercapita2 + (float)pontosturisticos2 + (1.0f / densidade2);
 
 
     // Exibição dos Dados das Cartas:
