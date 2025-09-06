@@ -131,6 +131,9 @@ int main() {
     printf("Super Poder: %.2f\n", superPoder2);
 
 
+    int resultado;
+    printf("\n\n----COMPARAÇÃO DAS CARTAS (1 = Vitoria da carta 1 || 0 = vitoria da carta 2)----\n");
+
     
 
     return 0;
