@@ -148,6 +148,9 @@ int main() {
 
     resultado = densidade1 < densidade2;
     printf("Densidade Populacional: %d\n", resultado);
+
+    resultado = pibpercapita1 > pibpercapita2;
+    printf("PIB per Capita: %d\n", resultado);
     
 
 
